@@ -1,5 +1,5 @@
 #########################################################################
-#          PCA -- Zebin Zhang   (ZEBIN_ZHANG@OUTLOOK.COM)
+#          Capsella Project Analysis Steps -- Zebin Zhang               #
 #########################################################################
 
 ##  Set work directly and load files.
@@ -9,7 +9,7 @@ rawTMM <- read.table("InputData/Cbp_diploids_scaled_FRL_masked_RNA_ASE_rename.tx
 
 head(rawTMM[,1:36])
 diploidsData <- rawTMM[,1:36]
-#write.table(diploidsData, file = "InputData/Cbp_diploids_raw_reads_count.txt", quote = F, sep = "\t")
+write.table(diploidsData, file = "InputData/Cbp_diploids_raw_reads_count.txt", quote = F, sep = "\t")
 head(rawTMM)
 dim(rawTMM)
 # This file contails informations of population and tissue in each accession

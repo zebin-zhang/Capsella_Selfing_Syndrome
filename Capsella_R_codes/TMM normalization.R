@@ -1,7 +1,3 @@
-###############################################################
-# TMM normalization       zebin zhang (zebin_zhang@outlook.com)
-###############################################################
-
 setwd("/Users/zebinzhang/Desktop/My_Computer/Uppsala_University/Capsella_Project/")
 
 # Install requested libraries from Bioconductor
